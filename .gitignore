@@ -1,0 +1,33 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+coverage/
+npm-debug.log*
+
+# Playwright
+playwright-report/
+test-results/
+
+# Gradle / Kotlin
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+out/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
